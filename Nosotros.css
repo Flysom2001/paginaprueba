@@ -1,0 +1,100 @@
+/* General Styles */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'San Francisco Regular', sans-serif;
+    background-color: #F7F8F3;
+}
+
+h2 {
+    font-family: 'Bison Bold', sans-serif;
+    font-size: 1.8em;
+    color: #F7F8F3;
+}
+
+p {
+    font-family: 'TT Commons Light', sans-serif;
+    font-size: 1.2em;
+    color: #F7F8F3;
+}
+
+.navbar {
+    background-color: #E6343A;
+}
+
+.navbar-brand {
+    font-family: 'Bison Bold', sans-serif;
+    color: #F7F8F3;
+}
+
+.nav-link {
+    color: #F7F8F3;
+    font-weight: bold;
+}
+
+.navbar-toggler {
+    color: #F7F8F3;
+}
+
+/* Sección Nosotros - Pantalla Completa */
+.nosotros {
+    background-image: url('../IMAGENES/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* 100% de la altura de la pantalla */
+    width: 100vw; /* 100% del ancho de la pantalla */
+}
+
+.contenido-seccion {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.cuadro-negro {
+    background-color: #191917;
+    padding: 20px;
+    border-radius: 10px;
+    width: 40%;
+    min-width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+/* Responsive design: Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+    .cuadro-negro {
+        width: 90%;
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+}
+
+/* Footer */
+footer {
+    background-color: #6E0000;
+    color: #F7F8F3;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.redes a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-size: 1.5em;
+}
